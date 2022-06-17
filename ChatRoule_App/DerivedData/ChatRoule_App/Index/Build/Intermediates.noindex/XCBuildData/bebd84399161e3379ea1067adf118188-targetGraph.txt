@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-ChatRoule_App in ChatRoule_App, no dependencies
-ChatRoule_App in ChatRoule_App, no dependencies
