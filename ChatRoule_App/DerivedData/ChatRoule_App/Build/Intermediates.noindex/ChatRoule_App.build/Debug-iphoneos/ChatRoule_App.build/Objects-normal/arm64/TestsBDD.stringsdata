@@ -1,0 +1,36 @@
+{
+  "source": "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/ChatRoule_App/TestsBDD/TestsBDD.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Test BDD avec sqlite3"
+      },
+      {
+        "comment": "",
+        "key": "Click pour créer la table"
+      },
+      {
+        "comment": "",
+        "key": "Click pour insérer dans la table"
+      },
+      {
+        "comment": "",
+        "key": "Click pour récupérer dans la table"
+      },
+      {
+        "comment": "",
+        "key": "Click pour vider la table"
+      },
+      {
+        "comment": "",
+        "key": "Entrez nombre"
+      },
+      {
+        "comment": "",
+        "key": "%@"
+      }
+    ]
+  },
+  "version": 1
+}

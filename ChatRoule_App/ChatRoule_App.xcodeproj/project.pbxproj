@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3713014D285B7D7D0003699B /* CView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3713014C285B7D7D0003699B /* CView.swift */; };
+		3718113B285B4C6900224F1A /* blocDernierNFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3718113A285B4C6900224F1A /* blocDernierNFT.swift */; };
+		37187E1B285A55C700908B41 /* ChatRoule_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E1A285A55C700908B41 /* ChatRoule_AppApp.swift */; };
+		37187E1D285A55C700908B41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E1C285A55C700908B41 /* ContentView.swift */; };
+		37187E1F285A55C900908B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37187E1E285A55C900908B41 /* Assets.xcassets */; };
+		37187E22285A55C900908B41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37187E21285A55C900908B41 /* Preview Assets.xcassets */; };
+		37187E29285A55E900908B41 /* TestsBDD_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E28285A55E900908B41 /* TestsBDD_Helper.swift */; };
+		37187E2E285A620A00908B41 /* Utilisateur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E2D285A620A00908B41 /* Utilisateur.swift */; };
+		37187E30285A64E600908B41 /* Nft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E2F285A64E600908B41 /* Nft.swift */; };
+		37187E32285A668F00908B41 /* CompteBic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E31285A668F00908B41 /* CompteBic.swift */; };
+		37187E34285A6AA500908B41 /* Accueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E33285A6AA500908B41 /* Accueil.swift */; };
+		37187E36285A6AC100908B41 /* Galerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E35285A6AC100908B41 /* Galerie.swift */; };
+		37187E38285A6ACC00908B41 /* Boutique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E37285A6ACC00908B41 /* Boutique.swift */; };
+		37187E41285A6B3900908B41 /* pushGalerie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E40285A6B3900908B41 /* pushGalerie.swift */; };
+		37187E43285A6B6700908B41 /* modalAchatBoutique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E42285A6B6700908B41 /* modalAchatBoutique.swift */; };
+		37187E45285A6B7100908B41 /* modalVenteBoutique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E44285A6B7100908B41 /* modalVenteBoutique.swift */; };
+		37187E47285A6B9B00908B41 /* pushSoldeBoutique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E46285A6B9B00908B41 /* pushSoldeBoutique.swift */; };
+		37187E49285A6BC300908B41 /* FormConnexion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E48285A6BC300908B41 /* FormConnexion.swift */; };
+		37187E4B285B15FE00908B41 /* TestsBDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E4A285B15FE00908B41 /* TestsBDD.swift */; };
+		37187E4E285B1BDD00908B41 /* BDD_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37187E4D285B1BDD00908B41 /* BDD_Helper.swift */; };
+		37494E0A285BC3C800A40D8B /* graphiqueBitcoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37494E09285BC3C800A40D8B /* graphiqueBitcoin.swift */; };
+		3799FE7E285C4DD000FFB5F5 /* requetesSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799FE7D285C4DD000FFB5F5 /* requetesSQL.swift */; };
+		3799FE80285CB22F00FFB5F5 /* blocNFT_Vente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799FE7F285CB22F00FFB5F5 /* blocNFT_Vente.swift */; };
+		3799FE82285CBA3B00FFB5F5 /* blocNFT_Achat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799FE81285CBA3B00FFB5F5 /* blocNFT_Achat.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3713014C285B7D7D0003699B /* CView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CView.swift; sourceTree = "<group>"; };
+		3718112A285B471800224F1A /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3718112B285B471800224F1A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3718112C285B471800224F1A /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3718112D285B471800224F1A /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		3718112E285B471800224F1A /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		3718112F285B471800224F1A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		37181130285B471800224F1A /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		37181131285B471800224F1A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		37181132285B471800224F1A /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		37181133285B471800224F1A /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		37181134285B471800224F1A /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		37181135285B471900224F1A /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		37181136285B471900224F1A /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		37181137285B471900224F1A /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		37181138285B471900224F1A /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		37181139285B471900224F1A /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		3718113A285B4C6900224F1A /* blocDernierNFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocDernierNFT.swift; sourceTree = "<group>"; };
+		37187E17285A55C700908B41 /* ChatRoule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRoule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37187E1A285A55C700908B41 /* ChatRoule_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoule_AppApp.swift; sourceTree = "<group>"; };
+		37187E1C285A55C700908B41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37187E1E285A55C900908B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37187E21285A55C900908B41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37187E28285A55E900908B41 /* TestsBDD_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsBDD_Helper.swift; sourceTree = "<group>"; };
+		37187E2D285A620A00908B41 /* Utilisateur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilisateur.swift; sourceTree = "<group>"; };
+		37187E2F285A64E600908B41 /* Nft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nft.swift; sourceTree = "<group>"; };
+		37187E31285A668F00908B41 /* CompteBic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompteBic.swift; sourceTree = "<group>"; };
+		37187E33285A6AA500908B41 /* Accueil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accueil.swift; sourceTree = "<group>"; };
+		37187E35285A6AC100908B41 /* Galerie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galerie.swift; sourceTree = "<group>"; };
+		37187E37285A6ACC00908B41 /* Boutique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boutique.swift; sourceTree = "<group>"; };
+		37187E40285A6B3900908B41 /* pushGalerie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushGalerie.swift; sourceTree = "<group>"; };
+		37187E42285A6B6700908B41 /* modalAchatBoutique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalAchatBoutique.swift; sourceTree = "<group>"; };
+		37187E44285A6B7100908B41 /* modalVenteBoutique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modalVenteBoutique.swift; sourceTree = "<group>"; };
+		37187E46285A6B9B00908B41 /* pushSoldeBoutique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushSoldeBoutique.swift; sourceTree = "<group>"; };
+		37187E48285A6BC300908B41 /* FormConnexion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormConnexion.swift; sourceTree = "<group>"; };
+		37187E4A285B15FE00908B41 /* TestsBDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsBDD.swift; sourceTree = "<group>"; };
+		37187E4D285B1BDD00908B41 /* BDD_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDD_Helper.swift; sourceTree = "<group>"; };
+		37494E09285BC3C800A40D8B /* graphiqueBitcoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphiqueBitcoin.swift; sourceTree = "<group>"; };
+		3799FE7D285C4DD000FFB5F5 /* requetesSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requetesSQL.swift; sourceTree = "<group>"; };
+		3799FE7F285CB22F00FFB5F5 /* blocNFT_Vente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocNFT_Vente.swift; sourceTree = "<group>"; };
+		3799FE81285CBA3B00FFB5F5 /* blocNFT_Achat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocNFT_Achat.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37187E14285A55C700908B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37187E0E285A55C700908B41 = {
+			isa = PBXGroup;
+			children = (
+				37181132285B471800224F1A /* Roboto-Black.ttf */,
+				37181137285B471900224F1A /* Roboto-BlackItalic.ttf */,
+				3718112A285B471800224F1A /* Roboto-Bold.ttf */,
+				3718112D285B471800224F1A /* Roboto-BoldCondensed.ttf */,
+				37181138285B471900224F1A /* Roboto-BoldCondensedItalic.ttf */,
+				37181134285B471800224F1A /* Roboto-BoldItalic.ttf */,
+				37181139285B471900224F1A /* Roboto-Condensed.ttf */,
+				3718112E285B471800224F1A /* Roboto-CondensedItalic.ttf */,
+				37181136285B471900224F1A /* Roboto-Italic.ttf */,
+				37181133285B471800224F1A /* Roboto-Light.ttf */,
+				37181135285B471900224F1A /* Roboto-LightItalic.ttf */,
+				3718112B285B471800224F1A /* Roboto-Medium.ttf */,
+				37181130285B471800224F1A /* Roboto-MediumItalic.ttf */,
+				37181131285B471800224F1A /* Roboto-Regular.ttf */,
+				3718112C285B471800224F1A /* Roboto-Thin.ttf */,
+				3718112F285B471800224F1A /* Roboto-ThinItalic.ttf */,
+				37187E19285A55C700908B41 /* ChatRoule_App */,
+				37187E18285A55C700908B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37187E18285A55C700908B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37187E17285A55C700908B41 /* ChatRoule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37187E19285A55C700908B41 /* ChatRoule_App */ = {
+			isa = PBXGroup;
+			children = (
+				37187E4C285B19C900908B41 /* TestsBDD */,
+				37187E2C285A5A5E00908B41 /* Controller */,
+				37187E2B285A5A5700908B41 /* View */,
+				37187E2A285A5A4F00908B41 /* Model */,
+				37187E1E285A55C900908B41 /* Assets.xcassets */,
+				37187E20285A55C900908B41 /* Preview Content */,
+			);
+			path = ChatRoule_App;
+			sourceTree = "<group>";
+		};
+		37187E20285A55C900908B41 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				37187E21285A55C900908B41 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37187E2A285A5A4F00908B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37187E2D285A620A00908B41 /* Utilisateur.swift */,
+				37187E2F285A64E600908B41 /* Nft.swift */,
+				37187E31285A668F00908B41 /* CompteBic.swift */,
+				37187E4D285B1BDD00908B41 /* BDD_Helper.swift */,
+				3713014C285B7D7D0003699B /* CView.swift */,
+				3799FE7D285C4DD000FFB5F5 /* requetesSQL.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37187E2B285A5A5700908B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37187E3B285A6ADF00908B41 /* Boutique */,
+				37187E3A285A6AD900908B41 /* Galerie */,
+				37187E39285A6AD000908B41 /* Accueil */,
+				37187E1C285A55C700908B41 /* ContentView.swift */,
+				37187E48285A6BC300908B41 /* FormConnexion.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37187E2C285A5A5E00908B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37187E1A285A55C700908B41 /* ChatRoule_AppApp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37187E39285A6AD000908B41 /* Accueil */ = {
+			isa = PBXGroup;
+			children = (
+				37187E33285A6AA500908B41 /* Accueil.swift */,
+				3718113A285B4C6900224F1A /* blocDernierNFT.swift */,
+				37494E09285BC3C800A40D8B /* graphiqueBitcoin.swift */,
+			);
+			path = Accueil;
+			sourceTree = "<group>";
+		};
+		37187E3A285A6AD900908B41 /* Galerie */ = {
+			isa = PBXGroup;
+			children = (
+				37187E35285A6AC100908B41 /* Galerie.swift */,
+				37187E40285A6B3900908B41 /* pushGalerie.swift */,
+			);
+			path = Galerie;
+			sourceTree = "<group>";
+		};
+		37187E3B285A6ADF00908B41 /* Boutique */ = {
+			isa = PBXGroup;
+			children = (
+				37187E37285A6ACC00908B41 /* Boutique.swift */,
+				37187E42285A6B6700908B41 /* modalAchatBoutique.swift */,
+				37187E44285A6B7100908B41 /* modalVenteBoutique.swift */,
+				37187E46285A6B9B00908B41 /* pushSoldeBoutique.swift */,
+				3799FE7F285CB22F00FFB5F5 /* blocNFT_Vente.swift */,
+				3799FE81285CBA3B00FFB5F5 /* blocNFT_Achat.swift */,
+			);
+			path = Boutique;
+			sourceTree = "<group>";
+		};
+		37187E4C285B19C900908B41 /* TestsBDD */ = {
+			isa = PBXGroup;
+			children = (
+				37187E28285A55E900908B41 /* TestsBDD_Helper.swift */,
+				37187E4A285B15FE00908B41 /* TestsBDD.swift */,
+			);
+			path = TestsBDD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37187E16285A55C700908B41 /* ChatRoule_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37187E25285A55C900908B41 /* Build configuration list for PBXNativeTarget "ChatRoule_App" */;
+			buildPhases = (
+				37187E13285A55C700908B41 /* Sources */,
+				37187E14285A55C700908B41 /* Frameworks */,
+				37187E15285A55C700908B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatRoule_App;
+			productName = ChatRoule_App;
+			productReference = 37187E17285A55C700908B41 /* ChatRoule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37187E0F285A55C700908B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					37187E16285A55C700908B41 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 37187E12285A55C700908B41 /* Build configuration list for PBXProject "ChatRoule_App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37187E0E285A55C700908B41;
+			productRefGroup = 37187E18285A55C700908B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37187E16285A55C700908B41 /* ChatRoule_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37187E15285A55C700908B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37187E22285A55C900908B41 /* Preview Assets.xcassets in Resources */,
+				37187E1F285A55C900908B41 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37187E13285A55C700908B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37187E45285A6B7100908B41 /* modalVenteBoutique.swift in Sources */,
+				3718113B285B4C6900224F1A /* blocDernierNFT.swift in Sources */,
+				3799FE7E285C4DD000FFB5F5 /* requetesSQL.swift in Sources */,
+				37187E34285A6AA500908B41 /* Accueil.swift in Sources */,
+				37187E36285A6AC100908B41 /* Galerie.swift in Sources */,
+				37187E49285A6BC300908B41 /* FormConnexion.swift in Sources */,
+				37187E4E285B1BDD00908B41 /* BDD_Helper.swift in Sources */,
+				37187E29285A55E900908B41 /* TestsBDD_Helper.swift in Sources */,
+				37187E41285A6B3900908B41 /* pushGalerie.swift in Sources */,
+				37187E30285A64E600908B41 /* Nft.swift in Sources */,
+				3799FE80285CB22F00FFB5F5 /* blocNFT_Vente.swift in Sources */,
+				37187E38285A6ACC00908B41 /* Boutique.swift in Sources */,
+				37187E1D285A55C700908B41 /* ContentView.swift in Sources */,
+				37187E1B285A55C700908B41 /* ChatRoule_AppApp.swift in Sources */,
+				3799FE82285CBA3B00FFB5F5 /* blocNFT_Achat.swift in Sources */,
+				37494E0A285BC3C800A40D8B /* graphiqueBitcoin.swift in Sources */,
+				37187E32285A668F00908B41 /* CompteBic.swift in Sources */,
+				37187E43285A6B6700908B41 /* modalAchatBoutique.swift in Sources */,
+				37187E4B285B15FE00908B41 /* TestsBDD.swift in Sources */,
+				37187E2E285A620A00908B41 /* Utilisateur.swift in Sources */,
+				3713014D285B7D7D0003699B /* CView.swift in Sources */,
+				37187E47285A6B9B00908B41 /* pushSoldeBoutique.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37187E23285A55C900908B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		37187E24285A55C900908B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37187E26285A55C900908B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatRoule_App/Preview Content\"";
+				DEVELOPMENT_TEAM = B7QPF3P7JU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChatRoule-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ChatRoule;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eliaseckle.com.ChatRoule-App";
+				PRODUCT_NAME = ChatRoule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37187E27285A55C900908B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatRoule_App/Preview Content\"";
+				DEVELOPMENT_TEAM = B7QPF3P7JU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ChatRoule-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ChatRoule;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "eliaseckle.com.ChatRoule-App";
+				PRODUCT_NAME = ChatRoule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37187E12285A55C700908B41 /* Build configuration list for PBXProject "ChatRoule_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37187E23285A55C900908B41 /* Debug */,
+				37187E24285A55C900908B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37187E25285A55C900908B41 /* Build configuration list for PBXNativeTarget "ChatRoule_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37187E26285A55C900908B41 /* Debug */,
+				37187E27285A55C900908B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37187E0F285A55C700908B41 /* Project object */;
+}

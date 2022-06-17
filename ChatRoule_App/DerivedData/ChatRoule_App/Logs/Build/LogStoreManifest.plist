@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3C99050E-C3E1-4766-8C3F-03A35E520447</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3C99050E-C3E1-4766-8C3F-03A35E520447.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ChatRoule_App project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ChatRoule_App</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build ChatRoule_App</string>
+			<key>timeStartedRecording</key>
+			<real>677174634.01517904</real>
+			<key>timeStoppedRecording</key>
+			<real>677174647.95022595</real>
+			<key>title</key>
+			<string>Build ChatRoule_App</string>
+			<key>uniqueIdentifier</key>
+			<string>3C99050E-C3E1-4766-8C3F-03A35E520447</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

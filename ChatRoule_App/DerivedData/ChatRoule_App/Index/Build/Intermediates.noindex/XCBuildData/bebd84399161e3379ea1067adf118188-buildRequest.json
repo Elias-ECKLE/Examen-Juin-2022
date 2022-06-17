@@ -1,0 +1,62 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "03fa6371411d41a6c5c044f0b8446a146a06f15d558e34fb8a1bca875eb6f9d6"
+    }
+  ],
+  "containerPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/ChatRoule_App.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData/ChatRoule_App/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData/ChatRoule_App/Index/Build/Products",
+      "derivedDataPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData/ChatRoule_App/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData/ChatRoule_App/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData/ChatRoule_App/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/DerivedData/ChatRoule_App/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

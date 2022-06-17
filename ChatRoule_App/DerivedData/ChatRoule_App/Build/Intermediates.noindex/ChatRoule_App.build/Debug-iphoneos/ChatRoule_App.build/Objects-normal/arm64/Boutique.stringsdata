@@ -1,0 +1,20 @@
+{
+  "source": "/Users/eliaseckle/Desktop/Chat_Roule copie/Examen-Juin-2022/ChatRoule_App/ChatRoule_App/View/Boutique/Boutique.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@ "
+      },
+      {
+        "comment": "",
+        "key": "Achats de chatons "
+      },
+      {
+        "comment": "",
+        "key": "Vente de vos chatons NFT"
+      }
+    ]
+  },
+  "version": 1
+}
