@@ -9,50 +9,78 @@ import SwiftUI
 
 struct modalVenteBoutique: View {
     
+    @State var showingAlert = false;
+    @Binding var showingSheet:Bool;
+    @Binding var utilisateurActuel: Utilisateur;
+    
+
+    @Binding var index:Int;
     let proxy:GeometryProxy;
-    let chaton: Nft;
+ 
+    
     
     
     var body: some View {
         
         VStack{
             VStack{
-                Image(chaton.GetSource())
+                Image(utilisateurActuel.nftDeUtilisateur[index].GetSource())
                     .resizable().aspectRatio(contentMode: .fill)
                     .frame(width: proxy.size.width*0.4,
                            height: proxy.size.height*0.4,
                            alignment: .center)
                   
                 
-                Text(chaton.GetNom().capitalizingFirstLetter()).font(.largeTitle).bold()
+                Text(utilisateurActuel.nftDeUtilisateur[index].GetNom().capitalizingFirstLetter()).font(.largeTitle).bold()
                     .padding(.top, proxy.size.height*(-0.05))
                 
-                
+        
                 
             }
+            
+            Spacer();
+            
+            
             VStack{
+             
                 HStack{
                     Text("Prix actuel")
                     Spacer()
-                    Text("Prix à calculer")
+                    Text("Prix à calculer").bold()
+           
                 }
+                Divider()
+                Spacer()
                 HStack{
                     Text("Prix de départ")
                     Spacer()
-                    Text(String(chaton.GetPrixDepart()) + " € ")
+                    Text(String(utilisateurActuel.nftDeUtilisateur[index].GetPrixDepart()) + " € ").bold()
+                 
                 }
+                Divider()
+                Spacer()
                 HStack{
+              
                     Text("Auteur")
                     Spacer()
-                    Text("Auteur à venir")
+                    Text(utilisateurActuel.nftDeUtilisateur[index].GetAuteur().GetPrenom().capitalizingFirstLetter()
+                         + " " +
+                         utilisateurActuel.nftDeUtilisateur[index].GetAuteur().GetNom().capitalizingFirstLetter())
+                        .bold();
                 }
+                
             }
+            .frame(
+                width:proxy.size.width*0.8,
+                height: proxy.size.height*0.2,
+                alignment: .leading)
             
          
+            Spacer();
             
             VStack{
                 Button{
-   
+                    showingSheet = false;
                 }label:{
                     Text("ANNULER").padding(.trailing, proxy.size.width*0.022)
                         .font(.custom("CircularStd-Book" ,size:proxy.size.width*0.038))
@@ -63,14 +91,14 @@ struct modalVenteBoutique: View {
                             alignment: .center)
                         .background(Color.white)
                         .cornerRadius(20)
-                        .padding(.top, proxy.size.height*0.060)
+     
           
                         .shadow(color: Color.black.opacity(0.24), radius: 8, x: 0, y: 4)
             }
                 Button{
-   
+                    showingAlert.toggle()
                 }label:{
-                    Text("ACHETER").padding(.trailing, proxy.size.width*0.022)
+                    Text("VENDRE").padding(.trailing, proxy.size.width*0.022)
                         .font(.custom("CircularStd-Book" ,size:proxy.size.width*0.038))
                         .foregroundColor(Color.white)
                         .frame(
@@ -80,6 +108,8 @@ struct modalVenteBoutique: View {
                         .background(Color("colorInteractive"))
                         .cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.24), radius: 8, x: 0, y: 4)
+            }.alert("Fonctionnalité à venir", isPresented: $showingAlert){
+                Button("Ok ", role: .cancel){}
             }
         }
        

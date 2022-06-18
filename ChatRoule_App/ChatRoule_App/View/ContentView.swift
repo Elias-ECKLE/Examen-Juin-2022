@@ -44,11 +44,27 @@ struct ContentView: View {
                 
                 
             }.onAppear(){
-                //on purge et on récupère l'ensemble des nft détenus pas le
+                //on purge et on récupère l'ensemble des nft détenus pas l'utilisateur
                 utilisateurActuel.nftDeUtilisateur.removeAll();
                 utilisateurActuel.nftDeUtilisateur = BDD.NFTUtilisateur(utilisateur: utilisateurActuel);
+                
+                //on récupère également les nft qui reste sur le marché
                 utilisateurActuel.nftA_Acheter.removeAll();
                 utilisateurActuel.nftA_Acheter = BDD.NFTSurMarche();
+                
+                //enfin on récupère l'auteur associé à tous ces nft
+                for i in 0..<utilisateurActuel.nftDeUtilisateur.count{
+                    
+                    let nft =  utilisateurActuel.nftDeUtilisateur[i];
+                    
+                    nft.SetAuteur(auteur: BDD.AuteurNFT(id: nft.GetIdAuteur()));
+                }
+                for i in 0..<utilisateurActuel.nftA_Acheter.count{
+                    
+                    let nft =  utilisateurActuel.nftA_Acheter[i];
+                    
+                    nft.SetAuteur(auteur: BDD.AuteurNFT(id: nft.GetIdAuteur()));
+                }
             }
         }
 

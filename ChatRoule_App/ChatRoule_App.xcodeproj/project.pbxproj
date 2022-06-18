@@ -31,6 +31,7 @@
 		3799FE7E285C4DD000FFB5F5 /* requetesSQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799FE7D285C4DD000FFB5F5 /* requetesSQL.swift */; };
 		3799FE80285CB22F00FFB5F5 /* blocNFT_Vente.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799FE7F285CB22F00FFB5F5 /* blocNFT_Vente.swift */; };
 		3799FE82285CBA3B00FFB5F5 /* blocNFT_Achat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799FE81285CBA3B00FFB5F5 /* blocNFT_Achat.swift */; };
+		37FBD509285E50CF005F4F53 /* Auteur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FBD508285E50CF005F4F53 /* Auteur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		3799FE7D285C4DD000FFB5F5 /* requetesSQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requetesSQL.swift; sourceTree = "<group>"; };
 		3799FE7F285CB22F00FFB5F5 /* blocNFT_Vente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocNFT_Vente.swift; sourceTree = "<group>"; };
 		3799FE81285CBA3B00FFB5F5 /* blocNFT_Achat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blocNFT_Achat.swift; sourceTree = "<group>"; };
+		37FBD508285E50CF005F4F53 /* Auteur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auteur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			children = (
 				37187E2D285A620A00908B41 /* Utilisateur.swift */,
 				37187E2F285A64E600908B41 /* Nft.swift */,
+				37FBD508285E50CF005F4F53 /* Auteur.swift */,
 				37187E31285A668F00908B41 /* CompteBic.swift */,
 				37187E4D285B1BDD00908B41 /* BDD_Helper.swift */,
 				3713014C285B7D7D0003699B /* CView.swift */,
@@ -287,6 +290,7 @@
 			files = (
 				37187E45285A6B7100908B41 /* modalVenteBoutique.swift in Sources */,
 				3718113B285B4C6900224F1A /* blocDernierNFT.swift in Sources */,
+				37FBD509285E50CF005F4F53 /* Auteur.swift in Sources */,
 				3799FE7E285C4DD000FFB5F5 /* requetesSQL.swift in Sources */,
 				37187E34285A6AA500908B41 /* Accueil.swift in Sources */,
 				37187E36285A6AC100908B41 /* Galerie.swift in Sources */,

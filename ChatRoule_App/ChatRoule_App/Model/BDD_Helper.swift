@@ -252,6 +252,8 @@ class BDD_Helper{
     }
     
     
+    
+    
     func NFTUtilisateur(utilisateur:Utilisateur)->[Nft]{
         
         var nftArray = [Nft]();
@@ -336,6 +338,33 @@ class BDD_Helper{
     
     
     
+    
+    func AuteurNFT(id:Int)->Auteur{
+        
+        let auteurInst =  Auteur();
+        
+        let query = "SELECT * FROM auteurs WHERE id = '\(id)'";
+        var statement:OpaquePointer? = nil;
+
+        
+        if sqlite3_prepare_v2(self.bdd, query, -1, &statement, nil) == SQLITE_OK{
+            
+            while sqlite3_step(statement) == SQLITE_ROW{
+                
+                auteurInst.SetNom(nom: String(cString: sqlite3_column_text(statement, 2)))
+                auteurInst.SetPrenom(prenom: String(cString: sqlite3_column_text(statement, 1)))
+                
+                print("Prenom: " + auteurInst.GetPrenom());
+                print("Nom : " + auteurInst.GetNom());
+            }
+        }
+        else{
+            print("Erreur, problème aucun auteur de ce nft a été trouvé");
+        }
+      
+        
+        return auteurInst
+    }
     
     
     
