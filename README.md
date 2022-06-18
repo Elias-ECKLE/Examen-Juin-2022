@@ -19,7 +19,7 @@ Vous pouvez également compiler un build et lancer l'application en appuyant sur
 
 ------------------------ PROBLÈMES RÉCURRENTS : ---------------------------------
 
-Si des erreurs apparaissent lors du build de l'application, je vous conseille de suivre les étapes :
+Si des erreurs apparaissent lors du build de l'application, je vous conseille de suivre les étapes suivantes :
 
 - fermer XCode, aller au niveau du dossier "ChatRoule_App" et supprimer le dossier DerivedData (à côté du fichier "CharRoule_App.xcodeproj"). Il s'agit des caches du projet et il se peut qu'il ait enregistré un chemin de dossier n'existant pas. 
 Pas d'inquiétude, la suppression de ce dossier n'endommage pas le projet car il sera regénéré automatiquement à la volée lors de l'ouverture d'XCode.
