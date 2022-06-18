@@ -39,7 +39,7 @@ Actuellement il y a deux comptes de stockés sur la base de données SQLite avec
 - mot de passe : Ecklee01
 
 2ème compte :
-email : examscycle2@ludus-academie.com
-mot de passe : ExamsCycle2
+- email : examscycle2@ludus-academie.com
+- mot de passe : ExamsCycle2
 
 
