@@ -30,7 +30,7 @@ Souvent une erreur du type : " Command CompileSwift failed with a nonzero exit c
 
 
 
-------------------------- IDENTIFIANTS : ---------------------------------
+----------------------------- IDENTIFIANTS : ---------------------------------
 
 Actuellement il y a deux comptes de stockés sur la base de données SQLite avec des données différentes (nft, nom, solde, auteurs...). L'application s'ouvrant sur une page de connexion il faut donc entrer les identifiants de l'un de ses deux comptes pour voir s'afficher ses informations
 
