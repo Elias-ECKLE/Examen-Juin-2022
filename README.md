@@ -24,7 +24,7 @@ Si des erreurs apparaissent lors du build de l'application, je vous conseille de
 - fermer XCode, aller au niveau du dossier "ChatRoule_App" et supprimer le dossier DerivedData (à côté du fichier "CharRoule_App.xcodeproj"). Il s'agit des caches du projet et il se peut qu'il ait enregistré un chemin de dossier n'existant pas. 
 Pas d'inquiétude, la suppression de ce dossier n'endommage pas le projet car il sera regénéré automatiquement à la volée lors de l'ouverture d'XCode.
 
-- Enfin réouvrez XCode et appliquez le raccourcis suivant : " maj + cmd + K ". Cela permet de faire un nettoyage des dossiers de build. 
+- Enfin réouvrez XCode et appliquez le raccourcis suivant : " shift + cmd + K ". Cela permet de faire un nettoyage des dossiers de build. 
 N'hésitez pas à utiliser cette option autant de fois que nécessaire. 
 Souvent une erreur du type : " Command CompileSwift failed with a nonzero exit code" apparaît lorsqu'on a fait un changement dans le code et il est nécessaire de nettoyer le tout avant de relancer la compilation.
 
