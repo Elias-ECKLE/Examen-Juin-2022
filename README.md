@@ -26,5 +26,5 @@ Pas d'inquiétude, la suppression de ce dossier n'endommage pas le projet car il
 
 - Enfin réouvrez XCode et appliquez le raccourcis suivant : " maj + cmd + K ". Cela permet de faire un nettoyage des dossiers de build. 
 N'hésitez pas à utiliser cette option autant de fois que nécessaire. 
-Souvent une erreur du type : " Command CompileSwift failed with a nonzero exit code" apparaît lorsqu'on a fait un changement dans le code et il est nécessaire de nettoyer le tout avant de relancer la compilation 
+Souvent une erreur du type : " Command CompileSwift failed with a nonzero exit code" apparaît lorsqu'on a fait un changement dans le code et il est nécessaire de nettoyer le tout avant de relancer la compilation.
 
