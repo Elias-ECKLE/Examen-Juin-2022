@@ -14,6 +14,9 @@ Vous pouvez également compiler un build et lancer l'application en appuyant sur
 "Signing & Calpabilities".
 
 
+
+
+
 ------------------------ PROBLÈMES RÉCURRENTS : ---------------------------------
 
 Si des erreurs apparaissent lors du build de l'application, je vous conseille de suivre les étapes :
