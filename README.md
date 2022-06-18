@@ -28,3 +28,18 @@ Pas d'inquiétude, la suppression de ce dossier n'endommage pas le projet car il
 N'hésitez pas à utiliser cette option autant de fois que nécessaire. 
 Souvent une erreur du type : " Command CompileSwift failed with a nonzero exit code" apparaît lorsqu'on a fait un changement dans le code et il est nécessaire de nettoyer le tout avant de relancer la compilation.
 
+
+
+------------------------- IDENTIFIANTS : ---------------------------------
+
+Actuellement il y a deux comptes de stockés sur la base de données SQLite avec des données différentes (nft, nom, solde, auteurs...). L'application s'ouvrant sur une page de connexion il faut donc entrer les identifiants de l'un de ses deux comptes pour voir s'afficher ses informations
+
+1er compte :
+- email : e.eckle@ludus-academie.com
+- mot de passe : Ecklee01
+
+2ème compte :
+email : examscycle2@ludus-academie.com
+mot de passe : ExamsCycle2
+
+
